@@ -1,5 +1,5 @@
-import DashboardSkeleton, { LatestInvoicesSkeleton } from "../../ui/skeletons";
+import {InvoicesTableSkeleton} from "@/app/ui/skeletons";
 
-export default function Loading() {
-  return <LatestInvoicesSkeleton />
+export default function Page() {
+	return <InvoicesTableSkeleton />
 }
